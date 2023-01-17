@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+  }
+  
+  h1,
+  h2 {
+    font-family: Lato;
+  }
+  
+  .container {
+    padding: 30px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .content{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+  }
+  
+  .sidebar1{
+    background-color: pink;
+    padding: 20px;
+    order: 1;
+    width: 300px;
+  }
+  
+  .sidebar2{
+    background-color: blue;
+    padding: 20px;
+    order: 2;
+    width: 60%;
+  }
+  
+  .footer{
+    background-color: red;
+    padding: 20px;
+    margin: 20x;
+  }
+  
+  .header{
+    text-align: center;
+    background-color: green;
+  }
